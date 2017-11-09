@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D902C831FB3D79400C96A24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D902C821FB3D79400C96A24 /* AppDelegate.m */; };
-		7D902C861FB3D79400C96A24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D902C851FB3D79400C96A24 /* ViewController.m */; };
+		7D902C861FB3D79400C96A24 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D902C851FB3D79400C96A24 /* Home.m */; };
 		7D902C891FB3D79400C96A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D902C871FB3D79400C96A24 /* Main.storyboard */; };
 		7D902C8C1FB3D79400C96A24 /* StarWars_Api.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D902C8A1FB3D79400C96A24 /* StarWars_Api.xcdatamodeld */; };
 		7D902C8E1FB3D79400C96A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D902C8D1FB3D79400C96A24 /* Assets.xcassets */; };
@@ -20,8 +20,8 @@
 		7D902C7E1FB3D79400C96A24 /* StarWars_Api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars_Api.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D902C811FB3D79400C96A24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7D902C821FB3D79400C96A24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7D902C841FB3D79400C96A24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7D902C851FB3D79400C96A24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D902C841FB3D79400C96A24 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		7D902C851FB3D79400C96A24 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		7D902C881FB3D79400C96A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D902C8B1FB3D79400C96A24 /* StarWars_Api.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWars_Api.xcdatamodel; sourceTree = "<group>"; };
 		7D902C8D1FB3D79400C96A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,11 +60,8 @@
 		7D902C801FB3D79400C96A24 /* StarWars_Api */ = {
 			isa = PBXGroup;
 			children = (
+				7D902C9B1FB3D7AA00C96A24 /* Controllers */,
 				7D902C9A1FB3D7A200C96A24 /* Main */,
-				7D902C811FB3D79400C96A24 /* AppDelegate.h */,
-				7D902C821FB3D79400C96A24 /* AppDelegate.m */,
-				7D902C841FB3D79400C96A24 /* ViewController.h */,
-				7D902C851FB3D79400C96A24 /* ViewController.m */,
 				7D902C871FB3D79400C96A24 /* Main.storyboard */,
 				7D902C8D1FB3D79400C96A24 /* Assets.xcassets */,
 				7D902C8F1FB3D79400C96A24 /* LaunchScreen.storyboard */,
@@ -78,8 +75,19 @@
 		7D902C9A1FB3D7A200C96A24 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				7D902C811FB3D79400C96A24 /* AppDelegate.h */,
+				7D902C821FB3D79400C96A24 /* AppDelegate.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		7D902C9B1FB3D7AA00C96A24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D902C841FB3D79400C96A24 /* Home.h */,
+				7D902C851FB3D79400C96A24 /* Home.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D902C861FB3D79400C96A24 /* ViewController.m in Sources */,
+				7D902C861FB3D79400C96A24 /* Home.m in Sources */,
 				7D902C8C1FB3D79400C96A24 /* StarWars_Api.xcdatamodeld in Sources */,
 				7D902C941FB3D79400C96A24 /* main.m in Sources */,
 				7D902C831FB3D79400C96A24 /* AppDelegate.m in Sources */,
